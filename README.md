@@ -79,7 +79,7 @@ PRON VERB SCONJ ADP CCONJ DET NOUN ADJ AUX ADV PUNCT PROPN NUM SYM PART X INTJ
 | PREFS | Reflexive Pronouns First Person of Singular | me m' | 120 |
 | PREF | Reflexive Pronouns Third Person of Singular | se s' | 2 337 |
 | PREFP | Reflexive Pronouns First / Second Person of Plurial | nous vous | 686 |
-| VERB | Verb | obtient | 21131 |
+| VERB | Verb | obtient | 21 131 |
 | VPPMS | Singular Masculine Participle Past Verb | formulé | 6 275 |
 | VPPMP | Plurial Masculine Participle Past Verb | classés | 1 352 |
 | VPPFS | Singular Feminine Participle Past Verb | appelée | 2 434 |
