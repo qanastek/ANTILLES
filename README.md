@@ -18,18 +18,33 @@ We based our tags on the level of details given by the [LIA_TAGG](http://pageper
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-## Demo: How to use in Flair
+## Load the model
+
+### How to use in Flair ([model](https://huggingface.co/qanastek/pos-french))
 
 ```python
-from flair.datasets import UniversalDependenciesCorpus
-
-corpus: Corpus = UniversalDependenciesCorpus(
-    data_folder='ANTILLES',
-    train_file="train.conllu",
-    test_file="test.conllu",
-    dev_file="dev.conllu"
-)
+from flair.models import SequenceTagger
+tagger = SequenceTagger.load("qanastek/pos-french")
 ```
+
+## Demos on HuggingFace Spaces
+
+<table style="width: fit-content;">
+<thead>
+  <tr>
+    <td>
+        <a href="https://huggingface.co/spaces/qanastek/French-Part-Of-Speech-Tagging">
+            <img src="https://huggingface.co/datasets/qanastek/ANTILLES/raw/main/imgs/en.png" width="160">
+        </a>
+    </td>
+    <td>
+        <a href="https://huggingface.co/spaces/qanastek/Etiqueteur-Morphosyntaxique-Etendu">
+            <img src="https://huggingface.co/datasets/qanastek/ANTILLES/raw/main/imgs/fr.png" width="160">
+        </a>
+    </td>
+  </tr>
+</thead>
+</table>
 
 ## Statistics
 
