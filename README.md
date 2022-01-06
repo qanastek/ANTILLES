@@ -10,9 +10,9 @@
 
 # ANTILLES : An Open French Linguistically Enriched Part-of-Speech Corpus
 
-`ANTILLES` is a part-of-speech tagging corpora based on [UD_French-GSD](https://universaldependencies.org/treebanks/fr_gsd/index.html) which was originally created in 2015 and is based on the [universal dependency treebank v2.0](https://github.com/ryanmcd/uni-dep-tb).
+`ANTILLES` is a part-of-speech tagging corpus based on [UD_French-GSD](https://universaldependencies.org/treebanks/fr_gsd/index.html) which was originally created in 2015 and is based on the [universal dependency treebank v2.0](https://github.com/ryanmcd/uni-dep-tb).
 
-Originally, the corpora consists of 400,399 words (16,341 sentences) and had 17 different classes. Now, after applying our tags augmentation script `transform.py`, we obtain 60 different classes which add semantic information such as: the gender, number, mood, person, tense or verb form given in the different CoNLL-03 fields from the original corpora.
+Originally, the corpus consists of 400,399 words (16,341 sentences) and had 17 different classes. Now, after applying our tags augmentation script `transform.py`, we obtain 60 different classes which add semantic information such as: the gender, number, mood, person, tense or verb form given in the different CoNLL-03 fields from the original corpus.
 
 We based our tags on the level of details given by the [LIA_TAGG](http://pageperso.lif.univ-mrs.fr/frederic.bechet/download.html) statistical POS tagger written by [Frédéric Béchet](http://pageperso.lif.univ-mrs.fr/frederic.bechet/index-english.html) in 2001.
 
@@ -118,7 +118,20 @@ PRON VERB SCONJ ADP CCONJ DET NOUN ADJ AUX ADV PUNCT PROPN NUM SYM PART X INTJ
 
 Please cite the following paper when using this model.
 
-UD_French-GSD corpora:
+ANTILLES extended corpus:
+
+```latex
+@software{Labrak_ANTILLES_An_2021,
+  author = {Labrak, Yanis and Dufour, Richard},
+  month = {11},
+  title = {{ANTILLES : An Open French Linguistically Enriched Part-of-Speech Corpus}},
+  url = {https://github.com/qanastek/ANTILLES},
+  version = {1.0.0},
+  year = {2021}
+}
+```
+
+UD_French-GSD corpus:
 
 ```latex
 @misc{
