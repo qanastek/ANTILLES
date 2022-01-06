@@ -8,13 +8,15 @@
 1. LIA, Avignon University, Avignon, France.
 2. LS2N, Nantes University, Nantes, France.
 
-# UD_FRENCH_GSD_PLUS
+# ANTILLES : An Open French Linguistically Enriched Part-of-Speech Corpus
 
-`UD_FRENCH_GSD_Plus` is a part-of-speech tagging corpora based on [UD_French-GSD](https://universaldependencies.org/treebanks/fr_gsd/index.html) which was originally created in 2015 and is based on the [universal dependency treebank v2.0](https://github.com/ryanmcd/uni-dep-tb).
+`ANTILLES` is a part-of-speech tagging corpora based on [UD_French-GSD](https://universaldependencies.org/treebanks/fr_gsd/index.html) which was originally created in 2015 and is based on the [universal dependency treebank v2.0](https://github.com/ryanmcd/uni-dep-tb).
 
 Originally, the corpora consists of 400,399 words (16,341 sentences) and had 17 different classes. Now, after applying our tags augmentation script `transform.py`, we obtain 60 different classes which add semantic information such as: the gender, number, mood, person, tense or verb form given in the different CoNLL-03 fields from the original corpora.
 
 We based our tags on the level of details given by the [LIA_TAGG](http://pageperso.lif.univ-mrs.fr/frederic.bechet/download.html) statistical POS tagger written by [Frédéric Béchet](http://pageperso.lif.univ-mrs.fr/frederic.bechet/index-english.html) in 2001.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ## Demo: How to use in Flair
 
@@ -22,10 +24,10 @@ We based our tags on the level of details given by the [LIA_TAGG](http://pageper
 from flair.datasets import UniversalDependenciesCorpus
 
 corpus: Corpus = UniversalDependenciesCorpus(
-    data_folder='UD_FRENCH_GSD_PLUS',
-    train_file="fr_gsd-ud-plus-train.conllu",
-    test_file="fr_gsd-ud-plus-test.conllu",
-    dev_file="fr_gsd-ud-plus-dev.conllu"
+    data_folder='ANTILLES',
+    train_file="train.conllu",
+    test_file="test.conllu",
+    dev_file="dev.conllu"
 )
 ```
 
