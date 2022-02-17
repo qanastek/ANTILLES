@@ -46,6 +46,30 @@ tagger = SequenceTagger.load("qanastek/pos-french")
 </thead>
 </table>
 
+## Models on HuggingFace
+
+<table style="width: fit-content;">
+<thead>
+  <tr>
+    <td>
+        <a href="https://huggingface.co/qanastek/pos-french">
+            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/FastText.png" width="160">
+        </a>
+    </td>
+    <td>
+        <a href="https://huggingface.co/qanastek/pos-french-camembert-flair">
+            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/Flair%2BCamemBERT.png" width="160">
+        </a>
+    </td>
+    <td>
+        <a href="https://huggingface.co/qanastek/pos-french-camembert">
+            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/CamemBERT-FineTuning.png" width="160">
+        </a>
+    </td>
+  </tr>
+</thead>
+</table>
+
 ## Statistics
 
 |                    | Train  |  Dev   | Test  |
