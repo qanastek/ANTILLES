@@ -57,13 +57,13 @@ tagger = SequenceTagger.load("qanastek/pos-french")
         </a>
     </td>
     <td>
-        <a href="https://huggingface.co/qanastek/pos-french-camembert-flair">
-            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/Flair%2BCamemBERT.png" width="160">
+        <a href="https://huggingface.co/qanastek/pos-french-camembert">
+            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/CamemBERT-FineTuning.png" width="160">
         </a>
     </td>
     <td>
-        <a href="https://huggingface.co/qanastek/pos-french-camembert">
-            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/CamemBERT-FineTuning.png" width="160">
+        <a href="https://huggingface.co/qanastek/pos-french-camembert-flair">
+            <img src="https://raw.githubusercontent.com/qanastek/ANTILLES/main/Flair%2BCamemBERT.png" width="160">
         </a>
     </td>
   </tr>
@@ -73,10 +73,10 @@ tagger = SequenceTagger.load("qanastek/pos-french")
         <p style="text-align: center;">Accuracy 95.20%</p>
     </td>
     <td>
-        <p style="text-align: center;">Accuracy 97.97%</p>
+        <p style="text-align: center;">Accuracy 97.78%</p>
     </td>
     <td>
-        <p style="text-align: center;">Accuracy 97.78%</p>
+        <p style="text-align: center;">Accuracy 97.97%</p>
     </td>
   </tr>
 </tbody>
