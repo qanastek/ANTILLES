@@ -49,7 +49,7 @@ tagger = SequenceTagger.load("qanastek/pos-french")
 ## Models on HuggingFace
 
 <table style="width: fit-content;">
-<thead>
+<tbody>
   <tr>
     <td>
         <a href="https://huggingface.co/qanastek/pos-french">
@@ -67,7 +67,19 @@ tagger = SequenceTagger.load("qanastek/pos-french")
         </a>
     </td>
   </tr>
-</thead>
+  
+  <tr>
+    <td>
+        <p style="text-align: center;">Accuracy 95.20%</p>
+    </td>
+    <td>
+        <p style="text-align: center;">Accuracy 97.97%</p>
+    </td>
+    <td>
+        <p style="text-align: center;">Accuracy 97.78%</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
 ## Statistics
