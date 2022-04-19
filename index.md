@@ -82,10 +82,10 @@ PRON VERB SCONJ ADP CCONJ DET NOUN ADJ AUX ADV PUNCT PROPN NUM SYM PART X INTJ
 | PREF | Reflexive Pronouns Third Person of Singular | se s' | 2 337 |
 | PREFP | Reflexive Pronouns First / Second Person of Plurial | nous vous | 686 |
 | VERB | Verb | obtient | 21 131 |
-| VPPMS | Singular Masculine Participle Past Verb | formulé | 6 275 |
-| VPPMP | Plurial Masculine Participle Past Verb | classés | 1 352 |
-| VPPFS | Singular Feminine Participle Past Verb | appelée | 2 434 |
-| VPPFP | Plurial Feminine Participle Past Verb | sanctionnées | 813 |
+| VPPMS | Singular Masculine Past Participle Verb | formulé | 6 275 |
+| VPPMP | Plurial Masculine Past Participle Verb | classés | 1 352 |
+| VPPFS | Singular Feminine Past Participle Verb | appelée | 2 434 |
+| VPPFP | Plurial Feminine Past Participle Verb | sanctionnées | 813 |
 | VPPRE | Present participle | étant | 2 |
 | DET | Determinant | les l' | 25 206 |
 | DETMS | Singular Masculine Determinant | les | 15 444 |
