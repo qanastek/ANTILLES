@@ -121,13 +121,19 @@ Please cite the following paper when using this model.
 ANTILLES extended corpus:
 
 ```latex
-@software{Labrak_ANTILLES_An_2021,
-  author = {Labrak, Yanis and Dufour, Richard},
-  month = {11},
-  title = {{ANTILLES : An Open French Linguistically Enriched Part-of-Speech Corpus}},
-  url = {https://github.com/qanastek/ANTILLES},
-  version = {1.0.0},
-  year = {2021}
+@inproceedings{labrak:hal-03696042,
+  TITLE = {{ANTILLES: An Open French Linguistically Enriched Part-of-Speech Corpus}},
+  AUTHOR = {Labrak, Yanis and Dufour, Richard},
+  URL = {https://hal.archives-ouvertes.fr/hal-03696042},
+  BOOKTITLE = {{25th International Conference on Text, Speech and Dialogue (TSD)}},
+  ADDRESS = {Brno, Czech Republic},
+  PUBLISHER = {{Springer}},
+  YEAR = {2022},
+  MONTH = Sep,
+  KEYWORDS = {Part-of-speech corpus ; POS tagging ; Open tools ; Word embeddings ; Bi-LSTM ; CRF ; Transformers},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03696042/file/ANTILLES_A_freNch_linguisTIcaLLy_Enriched_part_of_Speech_corpus.pdf},
+  HAL_ID = {hal-03696042},
+  HAL_VERSION = {v1},
 }
 ```
 
