@@ -8,6 +8,8 @@
 1. LIA, Avignon University, Avignon, France.
 2. LS2N, Nantes University, Nantes, France.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/antilles-an-open-french-linguistically/part-of-speech-tagging-on-antilles)](https://paperswithcode.com/sota/part-of-speech-tagging-on-antilles?p=antilles-an-open-french-linguistically)
+
 # ANTILLES : An Open French Linguistically Enriched Part-of-Speech Corpus
 
 `ANTILLES` is a part-of-speech tagging corpus based on [UD_French-GSD](https://universaldependencies.org/treebanks/fr_gsd/index.html) which was originally created in 2015 and is based on the [universal dependency treebank v2.0](https://github.com/ryanmcd/uni-dep-tb).
